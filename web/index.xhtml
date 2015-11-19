@@ -9,7 +9,8 @@
         <h:form>
             Wie heißt du Alder?<br/>
             <h:inputText value="#{user.name}"/>
-            <h:commandButton action="greet" value="Grüß Dich!"/>
+            <!--<h:commandButton action="greet" value="Grüß Dich!"/>-->
+            <h:commandButton action="#{manager.greet}" value="Grüß Dich!"/>
         </h:form>
     </h:body>
 </html>
